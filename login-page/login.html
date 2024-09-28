@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EduWeb || Login</title>
+  <link rel = "stylesheet" href = "main.css">
+</head>
+<body>
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="logo.svg" width="162" height="50" alt="EduWeb logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">
+            <img src="logo.svg" width="162" height="50" alt="EduWeb logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#category" class="navbar-link" data-nav-link>Courses</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Quizes</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#footer" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <div class = "login-container">
+    <div id= "main">
+      <h1>Sign In</h1>
+      <input id = "email" type = "text" placeholder = "Email"></input>
+      <input id = "password" type = "password" placeholder = "Password"></input>
+      <button id = "submit">Submit</button>
+      <p><span>or</span></p>
+      <button id = "sign-up">Sign Up</button>
+    </div>
+
+    <div id = "create-acct">
+      <h1>Create an Account</h1>
+      <input id = "email-signup" type = "text" placeholder = "Email *"></input>
+  <input id = "confirm-email-signup" type = "email" placeholder = "Confirm Email *"></input>
+      <input id = "password-signup" type = "password" placeholder = "Password *"></input>
+      <input id = "confirm-password-signup" type = "password" placeholder = "Confirm Password *"></input>
+      <button id = "create-acct-btn">Create Account</button>
+      <button id = "return-btn">Return to Login</button>
+    </div>
+  </div>
+  <script type = "module" src = "script.js"></script>
+</body>
+</html>
