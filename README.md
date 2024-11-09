@@ -4,8 +4,6 @@ The Online Quiz Application is a web-based platform designed to create, manage, 
 Features
 User Authentication: Secure login and registration for users.
 
-Quiz Management: Admins can create, edit, and delete quizzes.
-
 User Participation: Users can take quizzes and view their results.
 
 Responsive Design: The application is designed to be responsive and user-friendly.
